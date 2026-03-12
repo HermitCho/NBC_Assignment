@@ -1,3 +1,4 @@
+#pragma once
 #include "archer.h"
 #include <iostream>
 #include <string>

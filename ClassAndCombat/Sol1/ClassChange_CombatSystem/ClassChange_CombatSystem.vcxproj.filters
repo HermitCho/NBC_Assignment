@@ -35,9 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="archer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="magician.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -48,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="warrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

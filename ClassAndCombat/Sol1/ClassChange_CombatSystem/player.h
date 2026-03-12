@@ -1,7 +1,10 @@
 #pragma once
 #include <iostream>
 #include <string>
+
 using namespace std;
+
+class Monster;
 
 class Player {
 public:

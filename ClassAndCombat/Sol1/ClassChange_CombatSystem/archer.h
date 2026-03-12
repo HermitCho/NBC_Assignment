@@ -4,6 +4,8 @@
 
 using namespace std;
 
+class Monster;
+
 class Archer : public Player {
 public:
     Archer(string nickname);

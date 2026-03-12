@@ -1,3 +1,4 @@
+#pragma once
 #include "magician.h"
 #include <iostream>
 #include <string>
