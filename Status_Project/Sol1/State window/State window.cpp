@@ -1,0 +1,249 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+class CharacterStatus
+{
+public:
+	int status[5] = { 0, 0, 0, 0 , 0};
+	int potions[2] = { 0, 0 };
+	int level = 1;
+};
+
+
+
+//전방 선언
+void useHpPotion(int* p_HPPotion, int* hp);
+void useMpPotion(int* p_MPPotion, int* mp);
+void UpATK(int* atk);
+void UpDef(int* def);
+void UpLuck(int* luk);
+void viewStatus(CharacterStatus& s);
+void levelUp(CharacterStatus& s);
+void menu_view(CharacterStatus& s);
+
+
+
+void set_Hp_Mp(CharacterStatus& s)
+{
+	int h, m;
+	while (true) {
+		cin >> h >> m;
+		if (h <= 50 || m <= 50) {
+			cout << "HP나 MP의 값이 너무 작습니다. 다시 입력해주세요: ";
+		}
+		else {
+			s.status[0] = h;
+			s.status[1] = m;
+			break;
+		}
+	}
+}
+
+void set_Atk_Def(CharacterStatus& s)
+{
+	int a, d;
+	while (true) {
+		cin >> a >> d;
+		if (a <= 0 || d <= 0) {
+			cout << "공격력이나 방어력은 0보다 커야 합니다. 다시 입력해주세요: ";
+		}
+		else {
+			s.status[2] = a;
+			s.status[3] = d;
+			break;
+		}
+	}
+}
+
+void set_Luck(CharacterStatus& s)
+{
+	int a;
+	while (true) {
+		cin >> a;
+		if (a < 0) {
+			cout << "행운은 0 이상이어야 합니다. 다시 입력해주세요: ";
+		}
+		else {
+			s.status[4] = a;
+			break;
+		}
+	}
+}
+
+void input_set_Status(CharacterStatus& status)
+{
+	cout << "HP와 MP를 입력해주세요 : ";
+	set_Hp_Mp(status);
+
+	cout << "공격력과 방어력을 입력해주세요 : ";
+	set_Atk_Def(status);
+
+	cout << "행운을 입력해주세요 : ";
+	set_Luck(status);
+	return;
+}
+
+
+int get_action()
+{
+	int num;
+	cin >> num;
+	return num;
+}
+
+void setPotion(int count, int* p_HPPotion, int* p_MPPotion)
+{
+	*p_HPPotion = count;
+	*p_MPPotion = count;
+	cout << "* 포션이 지급되었습니다. (HP, MP 포션 각 5개)" << endl;
+	return;
+}
+
+void do_action(int num, CharacterStatus& s)
+{
+	switch (num)
+	{
+	case 1:
+		useHpPotion(&s.potions[0], &s.status[0]);
+		break;
+	case 2:
+		useMpPotion(&s.potions[1], &s.status[1]);
+		break;
+	case 3:
+		UpATK(&s.status[2]);
+		break;
+	case 4:
+		UpDef(&s.status[3]);
+		break;
+	case 5:
+		UpLuck(&s.status[4]);
+		break;
+	case 6:
+		viewStatus(s);
+		break;
+	case 7:
+		levelUp(s);
+		break;
+	case 0:
+	{
+		cout << "프로그램을 종료합니다.";
+		exit(0);
+	}
+	default:
+		cout << "잘못된 번호입니다.";
+		break;
+	}
+
+	menu_view(s);
+	return;
+}
+
+void useHpPotion(int* p_HPPotion, int* hp)
+{
+	if (*p_HPPotion <= 0)
+	{
+		cout << "포션이 부족합니다." << endl;
+		return;
+	}
+	*hp += 20;
+	*p_HPPotion -= 1;
+	cout << "* HP가 20 증가되었습니다. 포션이 1개 차감됩니다." << endl;
+	cout << "현재 HP: " << *hp << endl;
+	cout << "남은 포션 수 : " << *p_HPPotion << endl;
+	return;
+}
+
+void useMpPotion(int* p_MPPotion, int* mp)
+{
+	if (*p_MPPotion <= 0)
+	{
+		cout << "포션이 부족합니다." << endl;
+		return;
+	}
+	*mp += 20;
+	*p_MPPotion -= 1;
+	cout << "* MP가 20 증가되었습니다. 포션이 1개 차감됩니다." << endl;
+	cout << "현재 MP: " << *mp << endl;
+	cout << "남은 포션 수 : " << *p_MPPotion << endl;
+	return;
+}
+
+void UpATK(int* atk)
+{
+	*atk *= 2;
+	cout << "* 공격력이 2배로 증가되었습니다." << endl;
+}
+
+void UpDef(int* def)
+{
+	*def *= 2;
+	cout << "* 방어력이 2배로 증가되었습니다." << endl;
+}
+
+void UpLuck(int* luk)
+{
+	*luk *= 2;
+	cout << "* 행운이 2배로 증가되었습니다." << endl;
+}
+
+void viewStatus(CharacterStatus& s)
+{
+	cout << "Level : " << s.level << endl;
+	cout <<	"HP : " << s.status[0] << ", MP : " << s.status[1] << ", 공격력 : " << s.status[2] << ", 방어력 : " << s.status[3] << ", 행운 : " << s.status[4] << endl;
+	cout << "현재 HP 포션 개수 : " << s.potions[0] << ", MP 포션 개수 : " << s.potions[1] << endl;
+	return;
+}
+
+void addHpPotion(CharacterStatus& s)
+{
+	s.potions[0] += 1;
+}
+
+void addMpPotion(CharacterStatus& s)
+{
+	s.potions[1] += 1;
+}
+
+void levelUp(CharacterStatus& s)
+{
+	addHpPotion(s);
+	addMpPotion(s);
+	s.level += 1;
+	cout << "* 레벨 " << s.level << " 으로, 레벨업!HP / MP 포션이 지급됩니다." << endl;
+	cout << " 남은 HP / MP 포션 수 : " << s.potions[0] << " / " << s.potions[1] << endl;
+	return;
+}
+
+void menu_view(CharacterStatus& s)
+{
+	int num;
+
+	cout << "============================================" << endl;
+	cout << "<스탯 관리 시스템>" << endl;
+	cout << "<1. HP UP>" << endl;
+	cout << "<2. MP UP>" << endl;
+	cout << "<3. 공격력 UP>" << endl;
+	cout << "<4. 방어력 UP>" << endl;
+	cout << "<5. 행운 UP>" << endl;
+	cout << "<6. 현재 능력치>" << endl;
+	cout << "<7. Level UP>" << endl;
+	cout << "<0. 나가기>" << endl;
+	cout << "<번호를 선택해주세요 : >";
+
+	num = get_action();
+
+	do_action(num, s);
+}
+
+int main()
+{
+	CharacterStatus status;
+	input_set_Status(status);
+	setPotion(5, &status.potions[0], &status.potions[1]);
+	menu_view(status);
+
+	return 0;
+}
