@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{386DB893-025E-4870-8D17-0FF30DBB6C3C}|ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{386DB893-025E-4870-8D17-0FF30DBB6C3C}|ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.vcxproj|solutionrelative:ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386DB893-025E-4870-8D17-0FF30DBB6C3C}|ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{386DB893-025E-4870-8D17-0FF30DBB6C3C}|ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.vcxproj|solutionrelative:ClaasChange_CombatSystem_Upgrade\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "player.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\player.cpp",
+              "RelativeDocumentMoniker": "ClaasChange_CombatSystem_Upgrade\\player.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\player.cpp",
+              "RelativeToolTip": "ClaasChange_CombatSystem_Upgrade\\player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-12T12:18:49.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaasChange_CombatSystem_Upgrade.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp",
+              "RelativeDocumentMoniker": "ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\ClassAndCombat\\Sol1\\ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp",
+              "RelativeToolTip": "ClaasChange_CombatSystem_Upgrade\\ClaasChange_CombatSystem_Upgrade.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-12T12:16:04.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

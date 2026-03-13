@@ -1,0 +1,3 @@
+﻿  InventorySystem.cpp
+D:\C++\NBC_-assignment\InventorySystem\InventorySystem\InventorySystem.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  InventorySystem.vcxproj -> D:\C++\NBC_-assignment\InventorySystem\x64\Debug\InventorySystem.exe
