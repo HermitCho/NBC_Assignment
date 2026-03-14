@@ -19,17 +19,14 @@ public:
 		}
 		capacity_ = capacity;
 		pItems_ = new T[capacity];
+		cout << "인벤토리 생성 완료" << endl;
 	}
 
 	// 복사 생성자
-	Inventory(const Inventory<T>& other) {
-		capacity_ = other.capacity_;
-		size_ = other.size_;
-		pItems_ = new T[capacity_];
-		for (int i = 0; i < size_; ++i) {
-			pItems_[i] = other.pItems_[i];
-		}
-		cout << "인벤토리 복사 완료" << endl;
+	Inventory(const Inventory<T>& other)
+	{
+		pItems_(nullptr);
+		Assign(other);
 	}
 
 	void Assign(const Inventory<T>& other)
@@ -46,6 +43,7 @@ public:
 		pItems_ = newItems;
 		capacity_ = other.capacity_;
 		size_ = other.size_;
+		cout << "인벤토리 복사 완료" << endl;
 	}
 
 	void Resize(int newCapacity)
