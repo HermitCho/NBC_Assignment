@@ -12,6 +12,14 @@ int main()
 		itemInventory->AddItem(Item("Item" + std::to_string(i), (10 - i) * 100));
 	}
 
+	Inventory<Item>* inv2 = new Inventory<Item>(*itemInventory);
+
+
+	for (int i = 0; i < 11; ++i) //10칸 이상
+	{
+		inv2->AddItem(Item("Item" + std::to_string(i), (10 - i) * 100));
+	}
+
 	std::cout << "\n--- 정렬 전 출력 ---" << std::endl;
 	itemInventory->PrintAllItems();
 

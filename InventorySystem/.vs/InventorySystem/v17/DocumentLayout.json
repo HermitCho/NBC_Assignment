@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|solutionrelative:InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|solutionrelative:InventorySystem_Upgrade\\inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|solutionrelative:InventorySystem_Upgrade\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49AF5AA4-D9F2-4E48-AD7D-CDB51FAC5505}|InventorySystem_Upgrade\\InventorySystem_Upgrade.vcxproj|solutionrelative:InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "item.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\item.h",
               "RelativeDocumentMoniker": "InventorySystem_Upgrade\\item.h",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "inventory.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\inventory.h",
               "RelativeDocumentMoniker": "InventorySystem_Upgrade\\inventory.h",
               "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\inventory.h",
               "RelativeToolTip": "InventorySystem_Upgrade\\inventory.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewB0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-13T10:58:09.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InventorySystem_Upgrade.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp",
               "RelativeDocumentMoniker": "InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\InventorySystem\\InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp",
               "RelativeToolTip": "InventorySystem_Upgrade\\InventorySystem_Upgrade.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-13T10:57:54.653Z",
               "EditorCaption": ""

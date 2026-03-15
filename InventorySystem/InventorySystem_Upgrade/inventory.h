@@ -25,7 +25,7 @@ public:
 	// 복사 생성자
 	Inventory(const Inventory<T>& other)
 	{
-		pItems_(nullptr);
+		pItems_ = nullptr;
 		Assign(other);
 	}
 
