@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37012.4 d17.14
+VisualStudioVersion = 17.14.37012.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlchemySystem", "AlchemySystem\AlchemySystem.vcxproj", "{633F4381-1F47-4B45-B452-4725BC3FC784}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlchemySystem_Upgrade", "AlchemySystem_Upgrade\AlchemySystem_Upgrade.vcxproj", "{19D7D6E9-A922-4A8A-87F0-409C26EFA538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{633F4381-1F47-4B45-B452-4725BC3FC784}.Release|x64.Build.0 = Release|x64
 		{633F4381-1F47-4B45-B452-4725BC3FC784}.Release|x86.ActiveCfg = Release|Win32
 		{633F4381-1F47-4B45-B452-4725BC3FC784}.Release|x86.Build.0 = Release|Win32
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Debug|x64.ActiveCfg = Debug|x64
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Debug|x64.Build.0 = Debug|x64
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Debug|x86.ActiveCfg = Debug|Win32
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Debug|x86.Build.0 = Debug|Win32
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Release|x64.ActiveCfg = Release|x64
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Release|x64.Build.0 = Release|x64
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Release|x86.ActiveCfg = Release|Win32
+		{19D7D6E9-A922-4A8A-87F0-409C26EFA538}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

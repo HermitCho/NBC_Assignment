@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|solutionrelative:AlchemySystem\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|solutionrelative:AlchemySystem_Upgrade\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|solutionrelative:AlchemySystem\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\StockManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|solutionrelative:AlchemySystem_Upgrade\\StockManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemySystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{633F4381-1F47-4B45-B452-4725BC3FC784}|AlchemySystem\\AlchemySystem.vcxproj|solutionrelative:AlchemySystem\\AlchemySystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|solutionrelative:AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19D7D6E9-A922-4A8A-87F0-409C26EFA538}|AlchemySystem_Upgrade\\AlchemySystem_Upgrade.vcxproj|solutionrelative:AlchemySystem_Upgrade\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlchemySystem_Upgrade.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp",
+              "RelativeDocumentMoniker": "AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp",
+              "RelativeToolTip": "AlchemySystem_Upgrade\\AlchemySystem_Upgrade.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-16T13:34:39.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PotionRecipe.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\PotionRecipe.h",
-              "RelativeDocumentMoniker": "AlchemySystem\\PotionRecipe.h",
-              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\PotionRecipe.h",
-              "RelativeToolTip": "AlchemySystem\\PotionRecipe.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "StockManager.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\StockManager.h",
+              "RelativeDocumentMoniker": "AlchemySystem_Upgrade\\StockManager.h",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\StockManager.h",
+              "RelativeToolTip": "AlchemySystem_Upgrade\\StockManager.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-15T14:55:44.2Z",
+              "WhenOpened": "2026-03-16T13:20:26.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PotionRecipe.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\PotionRecipe.h",
+              "RelativeDocumentMoniker": "AlchemySystem_Upgrade\\PotionRecipe.h",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\PotionRecipe.h",
+              "RelativeToolTip": "AlchemySystem_Upgrade\\PotionRecipe.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T13:15:27.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AlchemyWorkshop.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemyWorkshop.h",
-              "RelativeDocumentMoniker": "AlchemySystem\\AlchemyWorkshop.h",
-              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemyWorkshop.h",
-              "RelativeToolTip": "AlchemySystem\\AlchemyWorkshop.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAABOAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemyWorkshop.h",
+              "RelativeDocumentMoniker": "AlchemySystem_Upgrade\\AlchemyWorkshop.h",
+              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem_Upgrade\\AlchemyWorkshop.h",
+              "RelativeToolTip": "AlchemySystem_Upgrade\\AlchemyWorkshop.h",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-15T14:42:26.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlchemySystem.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemySystem.cpp",
-              "RelativeDocumentMoniker": "AlchemySystem\\AlchemySystem.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\NBC_-assignment\\AlchemySystem\\AlchemySystem\\AlchemySystem.cpp",
-              "RelativeToolTip": "AlchemySystem\\AlchemySystem.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-15T14:41:45.936Z",
+              "WhenOpened": "2026-03-16T13:15:04.277Z",
               "EditorCaption": ""
             }
           ]

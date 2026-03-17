@@ -1,0 +1,3 @@
+﻿  AlchemySystem_Upgrade.cpp
+D:\C++\NBC_-assignment\AlchemySystem\AlchemySystem_Upgrade\StockManager.h(40): warning C4715: 'StockManager::dispensePotion': not all control paths return a value
+  AlchemySystem_Upgrade.vcxproj -> D:\C++\NBC_-assignment\AlchemySystem\x64\Debug\AlchemySystem_Upgrade.exe
