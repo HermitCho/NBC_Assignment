@@ -1,0 +1,30 @@
+# --- Visual Studio ---
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# --- Unreal Engine 임시/빌드 파일 (절대 올리면 안 됨) ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 소스 코드에서 생성된 라이브러리/실행 파일
+*.exe
+*.dll
+*.pdb
+*.modules
+*.target
+*.obj
+
+# --- 기타 ---
+.ignore
+*.log
+.DS_Store (Mac용)
